@@ -75,7 +75,7 @@ initial begin
 /**************************** test case 4 ******************************************/
     A_tb = 4'b1111;
     B_tb = 4'b0001;
-    op_code_tb = 2'10;
+    op_code_tb = 2'b10;
     delay(1);
     if(C_tb == 4'b0000)begin
         sucessfull_test_cases_counter++;
