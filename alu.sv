@@ -3,10 +3,10 @@ module alu (
     input wire clk,
     input wire [3:0] A,B,
     input wire [1:0] op_code,
-    output reg signed [5:0] C
+    output reg signed [4:0] C
 );
     /*internal signals*/
-reg signed [5:0] C_comb;
+reg signed [4:0] C_comb;
 
 
 /*combinational logic*/
@@ -24,7 +24,7 @@ always @(*) begin
             
         end
         2'b10:begin
-            C_comb = ~A;
+            C_comb = {0,~A};
             
         end
         2'b11:begin
