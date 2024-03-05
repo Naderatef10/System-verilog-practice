@@ -1,0 +1,176 @@
+Coverage Report by instance with details
+
+=================================================================================
+=== Instance: /dsp_tb/DUV
+=== Design Unit: work.dsp
+=================================================================================
+Branch Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         8         8         0   100.00%
+
+================================Branch Details================================
+
+Branch Coverage for instance /dsp_tb/DUV
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File dsp.v
+------------------------------------IF Branch------------------------------------
+    30                                     52432     Count coming in to IF
+    30              1                          4     
+    39              1                      52428     
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    51                                     52433     Count coming in to IF
+    51              1                          4     
+    54              1                      52429     
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    60                                     78646     Count coming in to IF
+    60              1                          4     
+    64              1                      78642     
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    100                                   104860     Count coming in to IF
+    100             1                          4     
+    103             1                     104856     
+Branch totals: 2 hits of 2 branches = 100.00%
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                      25        25         0   100.00%
+
+================================Statement Details================================
+
+Statement Coverage for instance /dsp_tb/DUV --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File dsp.v
+    28              1                      52432     
+    32              1                          4     
+    33              1                          4     
+    34              1                          4     
+    35              1                          4     
+    41              1                      52428     
+    42              1                      52428     
+    43              1                      52428     
+    44              1                      52428     
+    50              1                      52433     
+    52              1                          4     
+    55              1                      52429     
+    59              1                      78646     
+    61              1                          4     
+    62              1                          4     
+    65              1                      78642     
+    66              1                      78642     
+    72              1                      52430     
+    74              1                      52430     
+    75              1                      52430     
+    88              1                      26216     
+    90              1                      26216     
+    98              1                     104860     
+    101             1                          4     
+    104             1                     104856     
+Toggle Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Toggles                        740       692        48    93.51%
+
+================================Toggle Details================================
+
+Toggle Coverage for instance /dsp_tb/DUV --
+
+                                              Node      1H->0L      0L->1H  "Coverage"
+                                              ---------------------------------------
+                                          P[47-36]           0           0        0.00 
+                                      P_int[47-36]           0           0        0.00 
+
+Total Node Count     =        370 
+Toggled Node Count   =        346 
+Untoggled Node Count =         24 
+
+Toggle Coverage      =      93.51% (692 of 740 bins)
+
+=================================================================================
+=== Instance: /dsp_tb
+=== Design Unit: work.dsp_tb
+=================================================================================
+Branch Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         2         1         1    50.00%
+
+================================Branch Details================================
+
+Branch Coverage for instance /dsp_tb
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File dsp_tb.sv
+------------------------------------IF Branch------------------------------------
+    58                                     26214     Count coming in to IF
+    58              1                      26214     
+    61              1                    ***0***     
+Branch totals: 1 hit of 2 branches = 50.00%
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                      19        18         1    94.73%
+
+================================Statement Details================================
+
+Statement Coverage for instance /dsp_tb --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File dsp_tb.sv
+    15              1                     209732     
+    15              2                     209731     
+    53              1                          1     
+    54              1                          1     
+    55              1                          1     
+    57              1                          1     
+    57              2                      26214     
+    62              1                    ***0***     
+    64              1                      26214     
+    65              1                      26214     
+    66              1                      26214     
+    67              1                      26214     
+    68              1                      26214     
+    70              1                          1     
+    71              1                          1     
+    79              1                          2     
+    80              1                          2     
+    81              1                          2     
+    87              1                      26214     
+Toggle Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Toggles                        244       220        24    90.16%
+
+================================Toggle Details================================
+
+Toggle Coverage for instance /dsp_tb --
+
+                                              Node      1H->0L      0L->1H  "Coverage"
+                                              ---------------------------------------
+                                       P_tb[36-47]           0           0        0.00 
+
+Total Node Count     =        122 
+Toggled Node Count   =        110 
+Untoggled Node Count =         12 
+
+Toggle Coverage      =      90.16% (220 of 244 bins)
+
+
+Total Coverage By Instance (filtered view): 93.47%
+
