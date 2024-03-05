@@ -24,7 +24,7 @@ reg [35:0] Multiplier_out;
 reg [35:0] Multiplier_out_reg;
 reg [47:0] P_int;
 
-/*input regestering */
+/********************input regestering ******************************/
 always @(posedge clk , negedge rst_n) begin
 
     if(!rst_n)begin
