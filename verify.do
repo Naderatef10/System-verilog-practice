@@ -11,6 +11,5 @@ vlog  +cover +acc dsp.v dsp_tb.sv
 vsim -coverage -vopt work.dsp_tb   
 add wave *
 run -all
-coverage report -output report.txt  -cvg -codeAll -verbose
-coverage save dsp_tb.ucdb -onexit
+coverage report -output  report.txt   -cvg -codeAll -verbose
 exit 
